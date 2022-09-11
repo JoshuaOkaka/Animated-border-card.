@@ -15,15 +15,11 @@ h4{
     display: grid;
     place-items: center;
     position: relative;
-    height: 400px;
-    width: 350px;
+    height: 150px;
+    width: 100px;
     background-color: #111111;
     border-radius: 10px;
     overflow: hidden;
-    color: whitesmoke;
-}
-span{
-    color:white;
     
 }
 
@@ -36,6 +32,7 @@ span{
     position: absolute;
     background: linear-gradient(#00e5ff,#b400fb);
     animation: animate 5s linear infinite;
+    
 
 
 }
@@ -50,4 +47,5 @@ span{
     background: #111111;
     inset: 3px;
     border-radius: 5px;
+    
 }
