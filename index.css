@@ -4,15 +4,16 @@
     display: grid;
     place-items: center;
     position: relative;
-    height: 150px;
-    width: 100px;
+    height: 400px;
+    width: 350px;
     background: #111111;
     border-radius: 10px;
     overflow: hidden;
     color: whitesmoke;
 }
 span{
-    color:whitesmoke;
+    color:white;
+    
 }
 
 .container::before{
