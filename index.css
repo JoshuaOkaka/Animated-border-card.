@@ -1,9 +1,15 @@
 
 body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
+
+}
+h4{
+    font-family: monospace;
+    font-size: x-large;
 }
 .container{
     display: grid;
@@ -11,7 +17,7 @@ body{
     position: relative;
     height: 400px;
     width: 350px;
-    background: #111111;
+    background-color: #111111;
     border-radius: 10px;
     overflow: hidden;
     color: whitesmoke;
