@@ -1,0 +1,41 @@
+
+
+.container{
+    display: grid;
+    place-items: center;
+    position: relative;
+    height: 150px;
+    width: 100px;
+    background: #111111;
+    border-radius: 10px;
+    overflow: hidden;
+    color: whitesmoke;
+}
+span{
+    color:whitesmoke;
+}
+
+.container::before{
+    content: "";
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -70px;
+    position: absolute;
+    background: linear-gradient(#00e5ff,#b400fb);
+    animation: animate 5s linear infinite;
+
+
+}
+@keyframes animate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.container::after{
+    content: "";
+    position: absolute;
+    background: #111111;
+    inset: 3px;
+    border-radius: 5px;
+}
